@@ -86,3 +86,5 @@ document.write("<br>");
 calculation -=1;
 
 document.write('Results:' + " " + calculation + "<br>")
+
+
