@@ -77,13 +77,13 @@
 
 // x----------------------------x--------------------------------------------x--------------------------------x
 
-
+// x=====================================x==============28-09-23===============x===============================
 
 
 // Arrays.and.loops 
 
 
-const languages = ['javascript', 'oops', 'pyrhon'];
+// const languages = ['javascript', 'oops', 'pyrhon'];
 
 
 // console.log(languages.length); ====> 3
@@ -113,16 +113,100 @@ const languages = ['javascript', 'oops', 'pyrhon'];
                 // ===========> strat sy remove hogi (shift) method say 
 // console.log(languages);
 
+// ======================================x===============================x================ 
+
+// console.log('*');
+// console.log('*');
+// console.log('*');
+// console.log('*');
+// console.log('*');
+        
+                                        // =========> (for loop) is use for multiple line print 
+// for(let i = 0; i < 5; i++) {
+//     document.write("*")
+// }
+
+
+// ================================x======================================x====================== 
+
+
+
+// const actors = [
+// {
+//     name : "salman",
+//     payment: 110000
+// },
+
+// {
+//     name : "shahrukh",
+//     payment: 120000
+// },
+// {
+//     name : "Amir",
+//     payment: 130000
+// }
+
+// ];
+
+// for(let i = 0; i < actors.length; i++ ) {
+//     actors[i].payment =  actors[i].payment - 10000
+//     // console.log(actors[i])
+// }
+
+
+//  use loop (forEach) function in array 
+
+
+// actors.forEach(function(actor) {
+//     actor.payment = actor.payment - 10000
+// // console.log(actor)
+// })
 
 
 
 
 
+// use (for of) function in Array 
+
+// for (let actor of actors) {
+//     actor.payment = actor.payment - 10000
+//     // console.log(actor)
+// }
+
+
+// console.log(actors) 
+
+// x------------------------------------x-----------------------------------------------------x 
 
 
 
+//  array filter  (agr array kay result main koi chz nh chahye)
+ 
 
 
 
+// const students = [
+//     {name : 'Talha', marks: 95},
+//     {name : 'fahim', marks: 85},
+//     {name : 'asad', marks: 75},
+//     {name : 'subhan', marks: 35}
+// ]
 
+
+// const failed =students.filter(function(result) {
+// // console.log(result) 
+// // return true
+// if(result.marks < 45) {
+//     return true;
+// }else{
+//     return false;
+// }
+// });
+
+
+// console.log(failed);
+// console.log(students);
+
+
+// x---------------------------------x-----------------------------------------------------------x 
 
