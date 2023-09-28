@@ -61,32 +61,57 @@
     
 // }
 
+// x=======================x===================================x 
 
-function apple (){
-    console.log("tmhy apple lana hay, bazar say khareed kar")
-    console.log("phir apple ko pieces karna hay")
-    console.log("phir uska Juice nikalna hay")
-    console.log("phir us juice ko glass ma nikalna hay")
-    console.log("phir us juice k glass ko mujhy lakr dyna hay")
-}
+// function apple (){
+//     console.log("tmhy apple lana hay, bazar say khareed kar")
+//     console.log("phir apple ko pieces karna hay")
+//     console.log("phir uska Juice nikalna hay")
+//     console.log("phir us juice ko glass ma nikalna hay")
+//     console.log("phir us juice k glass ko mujhy lakr dyna hay")
+// }
 
-apple();
-
-
-
+// apple();
 
 
 
-
+// x----------------------------x--------------------------------------------x--------------------------------x
 
 
 
 
+// Arrays.and.loops 
+
+
+const languages = ['javascript', 'oops', 'pyrhon'];
+
+
+// console.log(languages.length); ====> 3
+
+// console.log(languages[1])    ===> change [0],[2]; 
+
+
+// languages.push('C++')
+                    //      ===>      last main add hogi (push) method say 
+// console.log(languages)
 
 
 
+// languages.unshift('dart');
+            //            =====>      start main add hogi (unshift) method say 
+// console.log(languages);
 
 
+
+// languages.pop();
+//                   =====>  end say remove hogi (pop) method say 
+// console.log(languages)
+
+
+
+// languages.shift()
+                // ===========> strat sy remove hogi (shift) method say 
+// console.log(languages);
 
 
 
