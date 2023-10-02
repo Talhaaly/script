@@ -58,7 +58,7 @@
 // for (let i = 0; i <= arrName.length; i++) {
 //     console.log(i)
 //     console.log(arrName)
-    
+
 // }
 
 // x=======================x===================================x 
@@ -92,13 +92,13 @@
 
 
 // languages.push('C++')
-                    //      ===>      last main add hogi (push) method say 
+//      ===>      last main add hogi (push) method say 
 // console.log(languages)
 
 
 
 // languages.unshift('dart');
-            //            =====>      start main add hogi (unshift) method say 
+//            =====>      start main add hogi (unshift) method say 
 // console.log(languages);
 
 
@@ -110,7 +110,7 @@
 
 
 // languages.shift()
-                // ===========> strat sy remove hogi (shift) method say 
+// ===========> strat sy remove hogi (shift) method say 
 // console.log(languages);
 
 // ======================================x===============================x================ 
@@ -120,8 +120,8 @@
 // console.log('*');
 // console.log('*');
 // console.log('*');
-        
-                                        // =========> (for loop) is use for multiple line print 
+
+// =========> (for loop) is use for multiple line print 
 // for(let i = 0; i < 5; i++) {
 //     document.write("*")
 // }
@@ -181,7 +181,7 @@
 
 
 //  array filter  (agr array kay result main koi chz nh chahye)
- 
+
 
 
 
@@ -209,4 +209,99 @@
 
 
 // x---------------------------------x-----------------------------------------------------------x 
+
+// Array Map Method 
+
+
+// const users = [
+//     {
+//         firstName: "Talha",
+//         lastName: "Ali"
+//     },
+
+//     {
+//         firstName: "Saim",
+//         lastName: "Ali"
+//     }
+// ]
+
+
+// const fUname = users.map(function(user){
+//     return {
+//         fullName: user.firstName + " " + user.lastName
+//     }
+// })
+
+
+// console.log(fUname);
+
+
+
+
+// --------------------x------------------------------------------x-------------------------------x 
+
+
+// Array Reduce Method 
+
+// const movies = [
+//     {
+//         name : "Tiger",
+//         budget : 500
+//     },
+//     {
+//         name : "Jawan",
+//         budget : 1000
+//     },
+//     {
+//         name : "Kick",
+//         budget : 1500
+//     },
+//     {
+//         name : "Funtoosh",
+//         budget : 2000
+//     }
+// ]
+
+
+// // foreach method check 
+// let total = 0;
+//  movies.forEach(function(movie){
+// total = total + movie.budget
+// })
+
+// console.log(total)
+
+
+
+
+// // Use Reduce Method
+
+// const total = movies.reduce((acc , movie)=>{
+// acc = acc + movie.budget
+// return acc ; 
+// }, 0)
+
+// console.log(total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
