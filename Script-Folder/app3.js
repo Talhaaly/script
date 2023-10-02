@@ -285,23 +285,65 @@
 
 
 
+// --------------x-------------------------x----------------------------------------x 
+
+
+// Array indexof Method 
+
+// const admins = [2, 103, 5];
+// const user = {
+//     name : "Talha",
+//     iD : 103
+// }
+
+// // const isAdmin = admins.indexOf(user.iD) > -1;
+// // console.log(isAdmin);
+
+// // or 
+
+// // includes method 
+
+
+// console.log(admins.includes(user.iD))
+
+
+// x---------------------------------------------x-------------------------x 
+
+
+// find method 
+
+
+// const users = [
+//     {
+//         name : "xyz",
+//         id : 1
+//     },
+
+//     {
+//         name : "bqr",
+//         id : 2
+//     },
+
+//     {
+//         name : "cpl",
+//         id : 3
+//     }
+// ]
+
+
+// const myUser = users.find((user)=>{
+//     if(user.id === 2){
+//         return true
+//     }
+// return false
+// })
+
+
+// console.log(myUser)
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// x-----------------------------------x------------------------------x 
