@@ -19,7 +19,7 @@
 //     document.write("not your teacher");
 // };
 
-// =================x===============x===================== 
+// =================x===============x=====================
 
 
 // var geek = ["Ali", "Talha", "Saim", 56, "Sultan"];
@@ -29,7 +29,7 @@
 // }
 
 
-// x=============x============================x============== 
+// x=============x============================x==============
 
 
 // let name = prompt("What is your Name ?");
@@ -37,10 +37,10 @@
 // let relation = prompt("Your Relation ?");
 // const invitationCard = prompt("Do you have invitation Card ? ");
 
-// if ((name == "talha" || "ejaz" || "Amin"|| "daniyal" || "hawaij") && 
-// (age >= 18) && 
-// (relation == "friend "|| "cousion" || "brother") && 
-// (invitationCard == "yes")) 
+// if ((name == "talha" || "ejaz" || "Amin"|| "daniyal" || "hawaij") &&
+// (age >= 18) &&
+// (relation == "friend "|| "cousion" || "brother") &&
+// (invitationCard == "yes"))
 // {
 //     alert("your Welcome...");
 
@@ -49,7 +49,7 @@
 // }
 
 
-// x===================x==============================================x 
+// x===================x==============================================x
 
 
 
@@ -61,7 +61,7 @@
 
 // }
 
-// x=======================x===================================x 
+// x=======================x===================================x
 
 // function apple (){
 //     console.log("tmhy apple lana hay, bazar say khareed kar")
@@ -80,7 +80,7 @@
 // x=====================================x==============28-09-23===============x===============================
 
 
-// Arrays.and.loops 
+// Arrays.and.loops
 
 
 // const languages = ['javascript', 'oops', 'pyrhon'];
@@ -88,32 +88,32 @@
 
 // console.log(languages.length); ====> 3
 
-// console.log(languages[1])    ===> change [0],[2]; 
+// console.log(languages[1])    ===> change [0],[2];
 
 
 // languages.push('C++')
-//      ===>      last main add hogi (push) method say 
+//      ===>      last main add hogi (push) method say
 // console.log(languages)
 
 
 
 // languages.unshift('dart');
-//            =====>      start main add hogi (unshift) method say 
+//            =====>      start main add hogi (unshift) method say
 // console.log(languages);
 
 
 
 // languages.pop();
-//                   =====>  end say remove hogi (pop) method say 
+//                   =====>  end say remove hogi (pop) method say
 // console.log(languages)
 
 
 
 // languages.shift()
-// ===========> strat sy remove hogi (shift) method say 
+// ===========> strat sy remove hogi (shift) method say
 // console.log(languages);
 
-// ======================================x===============================x================ 
+// ======================================x===============================x================
 
 // console.log('*');
 // console.log('*');
@@ -121,13 +121,13 @@
 // console.log('*');
 // console.log('*');
 
-// =========> (for loop) is use for multiple line print 
+// =========> (for loop) is use for multiple line print
 // for(let i = 0; i < 5; i++) {
 //     document.write("*")
 // }
 
 
-// ================================x======================================x====================== 
+// ================================x======================================x======================
 
 
 
@@ -154,7 +154,7 @@
 // }
 
 
-//  use loop (forEach) function in array 
+//  use loop (forEach) function in array
 
 
 // actors.forEach(function(actor) {
@@ -166,7 +166,7 @@
 
 
 
-// use (for of) function in Array 
+// use (for of) function in Array
 
 // for (let actor of actors) {
 //     actor.payment = actor.payment - 10000
@@ -174,9 +174,9 @@
 // }
 
 
-// console.log(actors) 
+// console.log(actors)
 
-// x------------------------------------x-----------------------------------------------------x 
+// x------------------------------------x-----------------------------------------------------x
 
 
 
@@ -194,7 +194,7 @@
 
 
 // const failed =students.filter(function(result) {
-// // console.log(result) 
+// // console.log(result)
 // // return true
 // if(result.marks < 45) {
 //     return true;
@@ -208,9 +208,9 @@
 // console.log(students);
 
 
-// x---------------------------------x-----------------------------------------------------------x 
+// x---------------------------------x-----------------------------------------------------------x
 
-// Array Map Method 
+// Array Map Method
 
 
 // const users = [
@@ -238,10 +238,10 @@
 
 
 
-// --------------------x------------------------------------------x-------------------------------x 
+// --------------------x------------------------------------------x-------------------------------x
 
 
-// Array Reduce Method 
+// Array Reduce Method
 
 // const movies = [
 //     {
@@ -263,7 +263,7 @@
 // ]
 
 
-// // foreach method check 
+// // foreach method check
 // let total = 0;
 //  movies.forEach(function(movie){
 // total = total + movie.budget
@@ -278,17 +278,17 @@
 
 // const total = movies.reduce((acc , movie)=>{
 // acc = acc + movie.budget
-// return acc ; 
+// return acc ;
 // }, 0)
 
 // console.log(total)
 
 
 
-// --------------x-------------------------x----------------------------------------x 
+// --------------x-------------------------x----------------------------------------x
 
 
-// Array indexof Method 
+// Array indexof Method
 
 // const admins = [2, 103, 5];
 // const user = {
@@ -299,18 +299,18 @@
 // // const isAdmin = admins.indexOf(user.iD) > -1;
 // // console.log(isAdmin);
 
-// // or 
+// // or
 
-// // includes method 
+// // includes method
 
 
 // console.log(admins.includes(user.iD))
 
 
-// x---------------------------------------------x-------------------------x 
+// x---------------------------------------------x-------------------------x
 
 
-// find method 
+// find method
 
 
 // const users = [
@@ -346,4 +346,31 @@
 
 
 
-// x-----------------------------------x------------------------------x 
+// x-----------------------------------x------------------------------x
+
+
+// sort method
+
+
+// const names = ["john", "ali", "sameer", "rahul", "faizan", "zubair", "naeem", "haroon", "kamran"];
+
+//  names.sort()
+
+//  console.log(names)
+
+
+
+// x==================x====================================================x 
+
+
+// splice method 
+
+// const names = ["john", "ali", "sameer", "rahul", "faizan", "zubair", "naeem", "haroon", "kamran"];
+
+
+// names.splice(1,2)
+
+// console.log(names)
+
+
+
