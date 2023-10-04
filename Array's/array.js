@@ -89,3 +89,58 @@
 
 
 
+// const myArr = [1,2,3,4,5,6]
+
+// console.log(myArr)
+
+
+// Array Advance 
+
+
+// const indian_heores = ["Ajay","Akshay","sunil"]
+// const pak_heores = ["Amir","Salman","Shahrukh"]
+
+// indian_heores.push(pak_heores) wrong method Array inside Array
+
+// concat Method
+
+// const all_heroes = indian_heores.concat(pak_heores)
+
+// console.log(all_heroes);
+
+
+
+// spread method use ... 
+
+// const all_heroes = [...pak_heores, ...indian_heores];
+
+// console.log(all_heroes);
+
+// x-----------------------------------x-----------------------x------------------
+
+
+// const nmArr = [1,2,3, [4,5,6], 7, [8,9,[4,5]]]
+
+// const realArr = nmArr.flat(Infinity)
+
+// // console.log(nmArr)
+//  console.log(realArr)
+
+
+// // isArray 
+
+//  console.log(Array.isArray("Naheel"))
+
+
+// //  from 
+//  console.log(Array.from("Naheel"))
+
+
+
+// Array of 
+
+// let score1 = 100;
+// let score2 = 200;
+// let score3 = 300;
+
+// console.log(Array.of(score1,score2,score3))
