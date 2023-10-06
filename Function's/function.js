@@ -27,31 +27,33 @@
 
 
 
-function calculateArea ( width, height) {
-    const area = width * height
-    return area
+// function calculateArea ( width, height) {
+//     const area = width * height
+//     return area
+// }
+
+// const result = calculateArea(2,5)
+
+
+// console.log(result)
+
+
+// use function 
+
+function avg (x,y){
+
+    return Math.round((x + y)/2);
 }
 
-const result = calculateArea(2,5)
 
 
-console.log(result)
+let a = 1;
+let b = 2;
+let c = 3;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("Average of a & b",avg(a ,b));
+console.log("Average of b & c",avg(b ,c));
+console.log("Average of a & c",avg(a ,c));
 
 
 
