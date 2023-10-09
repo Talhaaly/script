@@ -329,6 +329,21 @@
 
 
 
+// let bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userSearch = prompt("wlecom to my Bakers, Whta do you want to oder?");
+// let checkIn = "Available";
+// let matchFound = false;
+
+// for( let i = 0; i < bakeryItems.length; i++){
+//     if(bakeryItems[i] === userSearch){
+//         matchFound = true;
+//         alert(`${bakeryItems[i]} is ${checkIn} at index ${[i]}`);
+
+//     }
+// }
+// if(matchFound == false){
+// alert(`We Are Sorry ${userSearch} is not ${checkIn} in Our Bakery`)
+//     }
 
 
 
@@ -339,6 +354,46 @@
 
 
 
+
+
+
+
+
+
+// 15. Write a program to take password as an input from 
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+
+
+
+
+
+
+
+
+
+
+const password = prompt("Enter your Password");
+const matchPws = false;
+for(let i = 0; i < password.length; i++){
+    if(isNaN(parseInt(password[i]))){
+        console.log(`Enter Password ${password}`);
+        matchPws = true;
+        break
+    }else{
+        alert(`Password con not begin with a number.`);
+        break
+    }
+}if(isNaN(parseInt(password.length))< 6){
+    alert('Please Enter a Valid Password')
+}
 
 
 
