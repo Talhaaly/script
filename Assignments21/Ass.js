@@ -207,6 +207,149 @@
 
 
 
+// 11. Write a program that takes user input. Convert and 
+// show the input in title case.
+
+
+
+
+
+
+
+
+
+// const userInput = "javascript";
+// const titleCase = userInput.charAt(0).toUpperCase() + userInput.slice(1);
+// console.log(titleCase);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 12. Write a program that converts the variable num to 
+// string.
+// var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser.
+
+
+
+
+// var num = 35.36;
+
+// var result = num.toString();
+// console.log(result.replaceAll('.', ""))
+
+// console.log(typeof(result));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 13. Write a program to take user input and store username 
+// in a variable. If the username contains any special symbol 
+// among [@ . , !], prompt the user to enter a valid username. 
+// For character codes of [@ .
+// Note:
+// ASCII code of ! is 33
+// ASCII code of , is 44
+// ASCII code of . is 46
+// ASCII code of @ is 64
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var userInput = prompt("Write a User Name ?");
+
+// var sign = /[^a-zA-Z0-9]/gi;
+// // To remove all special characters from a string, call the replace() method on the string, passing a whitelisting regex and an empty string as arguments, i.e., str.replace(/^a-zA-Z0-9 ]/g, '').The replace() method will return a new string that doesn't contain any special characters.
+// if (sign.test(userInput)) {
+
+//     alert("this User Name Is not Valid")
+
+// } else {
+//     alert(`User Name Is Valid ${userInput}`)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// 14. You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an 
+// array. After searching, prompt the user whether the given 
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user 
+// enters cookie, Cookie, COOKIE or coOkIE, program 
+// should inform about its availability. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
