@@ -77,3 +77,142 @@
 
 
 
+
+// 6. Repeat Q1 using string concat() method.
+
+
+
+// concat 
+
+// const firstName = prompt('What Is your First Name ?');
+// const lastName = prompt('What Is Ypur Last Name ?');
+
+// const fullName = firstName.concat(" " +lastName);
+// console.log(fullName);
+
+
+
+// Spread Method 
+
+// const fullName  = [...firstName, ...lastName] 
+// console.log(fullName);
+
+
+
+
+
+
+
+
+
+
+
+// 7. Write a program to replace the “Hyder” to “Islam” in the 
+// word “Hyderabad” and display the result in your browser.
+
+
+
+
+
+
+
+
+// const text = "Hyderabad";
+// const result = text.replace("Hyderabad", "Islamabad");
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+// 8. Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser.
+// var message = “Ali and Sami are best friends. They play cricket and 
+// football together.”;
+
+
+
+
+
+
+
+// var message = "Ali and Sami are best friends.They play cricket and football together.";
+
+// var change = message.replace("and", "&");
+// console.log("Not Replace ====>", message);
+// console.log( 'Replace===>', change);
+
+
+
+
+
+
+
+
+
+
+
+// 9. Write a program that converts a string “472” to a number 
+// 472. Display the values & types in your browser.
+
+
+
+// let num1 = "472"
+// let num2 = +"472"
+// console.log(typeof (num1), "without +")
+// console.log(typeof (num2), "with +")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 10. Write a program that takes user input. Convert and 
+// show the input in capital letters.
+
+
+
+
+
+
+
+
+// const userInput = prompt("write Something...?");
+
+// alert(userInput.toUpperCase())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
