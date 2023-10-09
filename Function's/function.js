@@ -40,20 +40,20 @@
 
 // use function 
 
-function avg (x,y){
+// function avg (x,y){
 
-    return Math.round((x + y)/2);
-}
+//     return Math.round((x + y)/2);
+// }
 
 
 
-let a = 1;
-let b = 2;
-let c = 3;
+// let a = 1;
+// let b = 2;
+// let c = 3;
 
-console.log("Average of a & b",avg(a ,b));
-console.log("Average of b & c",avg(b ,c));
-console.log("Average of a & c",avg(a ,c));
+// console.log("Average of a & b",avg(a ,b));
+// console.log("Average of b & c",avg(b ,c));
+// console.log("Average of a & c",avg(a ,c));
 
 
 
