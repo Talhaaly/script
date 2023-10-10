@@ -380,20 +380,179 @@
 
 
 
-const password = prompt("Enter your Password");
-const matchPws = false;
-for(let i = 0; i < password.length; i++){
-    if(isNaN(parseInt(password[i]))){
-        console.log(`Enter Password ${password}`);
-        matchPws = true;
-        break
-    }else{
-        alert(`Password con not begin with a number.`);
-        break
-    }
-}if(isNaN(parseInt(password.length))< 6){
-    alert('Please Enter a Valid Password')
+// const password = prompt("Enter your Password");
+// const matchPws = false;
+// for(let i = 0; i < password.length; i++){
+//     if(isNaN(parseInt(password[i]))){
+//         console.log(`Enter Password ${password}`);
+//         matchPws = true;
+//         break
+//     }else{
+//         alert(`Password con not begin with a number.`);
+//         break
+//     }
+// }if(isNaN(parseInt(password.length))< 6){
+//     alert('Please Enter a Valid Password')
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 16. Write a program to convert the following string to an 
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+
+
+
+
+
+// var university = "University of Karachi";
+
+// var result = university.split(" ");
+
+// console.log(result);
+// console.log(result[1]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 17. Write a program to display the last character of a user 
+// input.
+
+
+
+
+// let str = "javascript";
+// let res = str.charAt(str.length -1)
+// console.log(res)
+
+
+
+
+
+
+
+
+
+
+
+
+// 18. You have a string “The quick brown fox jumps over the 
+// lazy dog”. Write a program to count number of 
+// occurrences of word “the” in given string.
+
+
+
+
+
+
+
+function gfg() {
+    let s = "the quick brown fox jumps over the lazy dog";
+    let f = "the";
+    let r = s.split(f).length - 1;
+    console.log(r);
 }
+gfg()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
