@@ -1,3 +1,6 @@
+              
+               // Assignment 21 -25 
+
 
 // 1. Write a program that takes two user inputs for first and 
 // last name using prompt and merge them in a new variable 
@@ -473,13 +476,13 @@
 
 
 
-function gfg() {
-    let s = "the quick brown fox jumps over the lazy dog";
-    let f = "the";
-    let r = s.split(f).length - 1;
-    console.log(r);
-}
-gfg()
+// function gfg() {
+//     let s = "the quick brown fox jumps over the lazy dog";
+//     let f = "the";
+//     let r = s.split(f).length - 1;
+//     console.log(r);
+// }
+// gfg()
 
 
 
@@ -495,8 +498,7 @@ gfg()
 
 
 
-
-
+// Assignment 26-30 
 
 
 

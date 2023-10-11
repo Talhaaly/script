@@ -374,3 +374,30 @@
 
 
 
+// x=======================================x=======================================x=======================
+
+
+// var cleanestCities = ["karachi", "Lahore", "islamabad", "Sukkur", "peshawar", "Multan", "sialkot"];
+// var cityToCheck = prompt("Enter Your City");
+// cityToCheck = cityToCheck.toLocaleLowerCase();
+// for(let i = 0; i <= cleanestCities.length; i++){
+//     if(cityToCheck === cleanestCities[i]){
+//         alert(`${cityToCheck} one of the cleanest city`)
+//     }
+// }
+
+
+
+
+
+// x=======================================x=======================================x=======================
+
+
+
+// var cityToCheck = prompt("Enter Your City");
+// var firstChar = cityToCheck.slice(0,1);
+// var someChars = cityToCheck.slice(1);
+// firstChar =firstChar.toUpperCase();
+// someChars = someChars.toLowerCase();
+// var combine = firstChar + someChars;
+// console.log(combine);
