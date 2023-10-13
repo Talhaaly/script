@@ -512,18 +512,16 @@
 
 
 
-const input = +prompt("write a positive intefer");
+// const input = +prompt("write a positive integer");
 
-const input_round = Math.round(input)
-const input_floor = Math.floor(input)
-const input_ceil = Math.ceil(input)
-
-
-console.log(input_round);
-console.log(input_floor);
-console.log(input_ceil);
+// const input_round = Math.round(input)
+// const input_floor = Math.floor(input)
+// const input_ceil = Math.ceil(input)
 
 
+// console.log(input_round);
+// console.log(input_floor);
+// console.log(input_ceil);
 
 
 
@@ -538,6 +536,30 @@ console.log(input_ceil);
 
 
 
+// 2. Write a program that takes a negative floating point
+// number from user & display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+
+
+
+
+
+
+
+// const input2 = +prompt("write a negative integer");
+
+// const input2_round = Math.round(input2)
+// const input2_floor = Math.floor(input2)
+// const input2_ceil = Math.ceil(input2)
+
+
+// console.log(input2_round);
+// console.log(input2_floor);
+// console.log(input2_ceil);
 
 
 
@@ -550,21 +572,19 @@ console.log(input_ceil);
 
 
 
+// 3. Write a program that displays the absolute value of a 
+// number.
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
 
 
 
 
 
+// let num = +prompt("Write a -ve Number");
 
+// let absolute = Math.abs(num);
 
-
-
-
-
-
-
-
-
+// console.log(absolute);
 
 
 
