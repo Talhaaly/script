@@ -500,8 +500,28 @@
 
 // Assignment 26-30 
 
+// MATH METHODS 
+
+// 1. Write a program that takes a positive integer from user &
+// display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
 
 
+
+
+const input = +prompt("write a positive intefer");
+
+const input_round = Math.round(input)
+const input_floor = Math.floor(input)
+const input_ceil = Math.ceil(input)
+
+
+console.log(input_round);
+console.log(input_floor);
+console.log(input_ceil);
 
 
 
