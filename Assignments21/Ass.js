@@ -597,6 +597,9 @@
 
 
 
+// 4. Write a program that simulates a dice using random() 
+// method of JS Math class. Display the value of dice in your 
+// browser.:
 
 
 
@@ -606,8 +609,12 @@
 
 
 
+// function rollDice() {
+//     let dice = Math.floor(Math.random() * 6) + 1;
 
-
+//     document.getElementById('dice').innerText = dice;
+// }
+// document.getElementById('dice').innerText = 6;
 
 
 
