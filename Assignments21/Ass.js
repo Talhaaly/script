@@ -622,3 +622,21 @@
 
 
 
+// 5. Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+
+
+
+
+
+// function toss() {
+//     let toss = Math.floor(Math.random() * 2 ) + 1 
+//     if (toss == "1 ") {
+//         document.getElementById('toss').innerText = "head"
+//     } else if (toss == "2") {
+//         document.getElementById('toss').innerText = "tail"
+
+//     }
+
+// }
