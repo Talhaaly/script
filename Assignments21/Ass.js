@@ -640,3 +640,35 @@
 //     }
 
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // question 06
+
+// let num = Math.floor(Math.random() * 100) + 1
+// console.log(num)
+
+
+// // question 08
+
+// let secretNum = Math.floor(Math.random() * 10) + 1 ;
+// console.log(secretNum)
+// let user_trys = prompt("write a number between 1 to 10")
+
+// if (user_trys == secretNum) {
+//     alert("congrats")
+// } else if (user_trys == secretNum + 1 || user_trys == secretNum - 1 ) {
+//     alert("you are very close.")
+// } else {
+//     alert("sorry")
+// }
