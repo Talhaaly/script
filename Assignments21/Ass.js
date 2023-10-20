@@ -1011,3 +1011,31 @@
 // console.log(result);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function calcArea(radius) {
+//     if (typeof radius !== 'number' || isNaN(radius) || radius <= 0) {
+//         return "Invalid radius. Please provide a positive numeric value.";
+//     }
+
+//     // Calculate the area using the formula A = π * r^2
+//     const area = Math.PI * Math.pow(radius, 2);
+
+//     return `The area is ${area.toFixed(2)}`;
+// }
+
+// const radius = 5;
+// const result = calcArea(radius);
+// console.log(result);
