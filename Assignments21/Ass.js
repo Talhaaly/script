@@ -1095,14 +1095,14 @@
 // const studentsMarks= [ 
 //     {
 //         serial: 0,
-//         name: "Sami",
+//         name: "Hassan",
 //         class: "10th",
 //         dlt: "Delete",
 //         id: "one"
 //     },
 //     {
 //         serial: 1,
-//         name: "Fahad",
+//         name: "Shahzaib",
 //         class: "10th",
 //         dlt: "Delete",
 //         id: "one"
@@ -1116,14 +1116,14 @@
 //     },
 //     {
 //         serial: 3,
-//         name: "Umair",
+//         name: "Talha",
 //         class: "9th",
 //         dlt: "Delete",
 //         id: "one"
 //     },
 //     {
 //         serial: 4,
-//         name: "Saqib",
+//         name: "Qasim",
 //         class: "10th",
 //         dlt: "Delete",
 //         id: "one"
