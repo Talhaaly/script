@@ -9,4 +9,5 @@
 // console.log(document.body.childNodes[1].firstChild);
 
 
-
+let dom = document.getElementsByClassName('dom')
+console.log(dom);
