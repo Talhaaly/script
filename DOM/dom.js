@@ -54,3 +54,13 @@
 
 // Toggling a class on an element
 // element.classList.toggle('toggleClass');
+
+let arr = ["Talha", "Ali", "Shahzaib", "Salman"]
+// for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//   console.log(element);  
+// }
+
+arr.forEach((currelem)=>{
+console.log(currelem);
+})
