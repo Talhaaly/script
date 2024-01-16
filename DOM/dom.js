@@ -55,12 +55,55 @@
 // Toggling a class on an element
 // element.classList.toggle('toggleClass');
 
-let arr = ["Talha", "Ali", "Shahzaib", "Salman"]
+// let arr = ["Talha", "Ali", "Shahzaib", "Salman"]
 // for (let i = 0; i < arr.length; i++) {
 //     const element = arr[i];
 //   console.log(element);  
 // }
 
-arr.forEach((currelem)=>{
-console.log(currelem);
-})
+// arr.forEach((currelem)=>{
+// console.log(currelem);
+// })
+
+
+
+
+
+
+// let numbs =[1,2,3,4,5]
+// let sum = numbs.reduce((accu,cuval)=> accu + cuval,0)
+
+// console.log(sum);
+
+
+// function sum(...numbers) {
+//     let total = 0
+//     for(let number of numbers){
+//         total += number
+//     }
+//     return total;
+// }
+
+// console.log(sum(1,2,3,4,5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
