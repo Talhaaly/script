@@ -152,24 +152,43 @@
 
 
 
-let arr = [1, 2, 3];
-arr.push(4); // arr is now [1, 2, 3, 4]
+// let arr = [1, 2, 3];
+// arr.push(4); // arr is now [1, 2, 3, 4]
 
-let arr = [1, 2, 3];
-arr.pop(); // arr is now [1, 2]
-
-
-let arr = ['a', 'b', 'c'];
-arr.shift(); // arr is now ['b', 'c']
+// let arr = [1, 2, 3];
+// arr.pop(); // arr is now [1, 2]
 
 
-let arr = ['a', 'b', 'c'];
-arr.unshift('0'); // arr is now ['0', 'a', 'b', 'c']
+// let arr = ['a', 'b', 'c'];
+// arr.shift(); // arr is now ['b', 'c']
 
 
-let arr = [1, 2, 3, 4, 5];
-let newArr = arr.slice(1, 3); // newArr is now [2, 3]
+// let arr = ['a', 'b', 'c'];
+// arr.unshift('0'); // arr is now ['0', 'a', 'b', 'c']
 
 
-let arr = [1, 2, 3, 4, 5];
-arr.splice(2, 0, 'a', 'b'); // arr is now [1, 2, 'a', 'b', 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.slice(1, 3); // newArr is now [2, 3]
+
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.splice(2, 0, 'a', 'b'); // arr is now [1, 2, 'a', 'b', 3, 4, 5]
+
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// let newArr = arr1.concat(arr2); // newArr is now [1, 2, 3, 4, 5, 6]
+
+
+
+// let arr = ['Hello', 'World'];
+// let str = arr.join(' '); // str is now 'Hello World'
+
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.reverse(); // arr is now [5, 4, 3, 2, 1]
+
+
+// let arr = [1, 5, 2, 4, 3];
+// arr.sort(); // arr is now [1, 2, 3, 4, 5]
