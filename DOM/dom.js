@@ -86,7 +86,14 @@
 
 // console.log(sum(1,2,3,4,5));
 
+// ============================================================================================
 
+
+// const heading = document.getElementById('heading');
+
+// heading.addEventListener('click', ()=>{
+//   console.log(document.body.innerHTML)
+// })
 
 
 
