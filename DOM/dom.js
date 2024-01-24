@@ -95,8 +95,18 @@
 //   console.log(document.body.innerHTML)
 // })
 
+// const arr = ["a", "b", 1, 2, 3]
+// function check () {
+// arr.forEach(element => {
+//   console.log(element);
+// });
+ 
+// while (arr) {
+//   console.log(arr);
+  
+// }
 
-
+// }
 
 
 
