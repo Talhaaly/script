@@ -59,6 +59,7 @@ const btn = document.querySelector('form button')
 const msg = document.querySelector('.msg')
 
 const fromcurr = document.querySelector('.from select')
+
 const toCurr = document.querySelector('.to select')
 
 for (let select of dropdowns) {

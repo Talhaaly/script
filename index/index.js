@@ -148,16 +148,40 @@
 
 
 
+// =========================================================================
+
+fetch('https://api.example.com/data')
+  .then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => console.log(data))
+  .catch(error => console.error('There was a problem with your fetch operation:', error));
 
 
 
 
+// ============================================================================
 
 
 
-
-
-
+async function fetchData(url) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error('Error fetching data: ', error);
+    }
+  }
+  
+  // Example usage:
+  fetchData('https://api.example.com/data');
 
 
 
