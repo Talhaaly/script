@@ -216,14 +216,41 @@
 
 
 
+// ==============================================
+
+// const numbers = [1, 2, 3, 4, 5];
+// const squaredNumbers = numbers.map(number => number * number);
+
+// console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+
+// ==========================================================
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const doubled = numbers.map(function(number) {
+//   return number * 2;
+// });
+
+// console.log(doubled);
+
+// =======================================================================
+
+// const array = [1, 2, 3, 4, 5];
+
+// array.forEach(function(element) {
+//   console.log(element);
+// });
+
+// ==========================================================================================
 
 
+// const numbers = [1, 2, 3, 4, 5];
 
+// const sum = numbers.reduce(function(accumulator, currentValue) {
+//   return accumulator + currentValue;
+// }, 0);
 
-
-
-
-
+// console.log(sum); // Output: 15
 
 
 
