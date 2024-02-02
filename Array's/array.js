@@ -253,9 +253,21 @@
 // console.log(sum); // Output: 15
 
 
+// =========================================================================================================
 
+// const array = [1, 2, 3, 4, 5];
 
+// // Find the first element greater than 3
+// const found = array.find(element => element > 3);
 
+// console.log(found); // Output: 4
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+
+// // Filter out numbers greater than 3
+// const filteredNumbers = numbers.filter(number => number > 3);
+
+// console.log(filteredNumbers); // Output: [4, 5, 6]
 
 
 
