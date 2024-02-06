@@ -460,3 +460,26 @@
 // } 
 // // Printing the final result 
 // console.log("The Result of this operation is : " + result);
+// ==========================================================================
+
+// const fruits = ['Apple', 'Banana', 'Cherry'];
+
+// // Destructuring the array
+// const [firstFruit, secondFruit] = fruits;
+
+// console.log(firstFruit); // Output: Apple
+// console.log(secondFruit); // Output: Banana
+
+
+// const person = {
+//     name: 'John Doe',
+//     age: 30,
+//     location: 'New York'
+//   };
+  
+//   // Destructuring the object
+//   const { name, age, location } = person;
+  
+//   console.log(name); // Output: John Doe
+//   console.log(age); // Output: 30
+//   console.log(location); // Output: New York
