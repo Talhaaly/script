@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project-1</title>
+    <style>
+        body {
+            background-color: black;
+            color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .btnparent {
+            display: flex;
+            gap: 8px;
+        }
+
+        #btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        #btn:hover {
+            background-color: #1f5522;
+
+        }
+
+        #heading {
+            font-size: 20px;
+            transition: font-size 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <span id="emoji" style="font-size: 30px; cursor: pointer;">😊</span>
+        <h1 id="heading">Increase Me..</h1>
+       <div class="btnparent">
+        <button id="btn" onclick="increaseHeadingSize()">Click me +</button>
+        <button id="btn" onclick="decreaseHeadingSize()">Click me -</button>
+       </div>
+    </div>
+    <script>
+        function increaseHeadingSize() {
+            var heading = document.getElementById("heading");
+            var emoji = document.getElementById("emoji");
+            var currentSize = parseFloat(window.getComputedStyle(heading, null).getPropertyValue('font-size'));
+            heading.style.fontSize = (currentSize + 2) + 'px';
+            emoji.style.transform = 'scale(1.5)';
+            setTimeout(function () {
+                emoji.style.transform = 'scale(1)';
+            }, 500);
+        }
+        
+        function decreaseHeadingSize() {
+            var heading = document.getElementById("heading");
+            var emoji = document.getElementById("emoji");
+            var currentSize = parseFloat(window.getComputedStyle(heading, null).getPropertyValue('font-size'));
+            heading.style.fontSize = (currentSize - 2) + 'px';
+            emoji.style.transform = 'scale(1.5)';
+            setTimeout(function () {
+                emoji.style.transform = 'scale(1)';
+            }, 500);
+        }
+    </script>
+
+</body>
+
+</html>
