@@ -269,10 +269,22 @@
 
 // console.log(filteredNumbers); // Output: [4, 5, 6]
 
+// =====================================================================
 
 
+// const array1 = [1, 2, 3];
+// const array2 = [4, 5, 6];
 
+// // Using the spread method to combine array1 and array2
+// const combinedArray = [...array1, ...array2];
 
+// console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6]
+
+// function sum(...numbers) {
+//     return numbers.reduce((accumulator, current) => accumulator + current, 0);
+//   }
+  
+//   console.log(sum(1, 2, 3, 4)); // Output: 10
 
 
 
