@@ -19,9 +19,11 @@
             align-items: center;
             flex-direction: column;
         }
+
         .btnparent {
-            display: flex;
-            gap: 8px;
+            display:flex ;
+             gap: 8px;
+
         }
 
         #btn {
@@ -39,6 +41,13 @@
 
         }
 
+        #emoji {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
         #heading {
             font-size: 20px;
             transition: font-size 0.5s ease;
@@ -48,12 +57,13 @@
 
 <body>
     <div class="parent">
-        <span id="emoji" style="font-size: 30px; cursor: pointer;">😊</span>
-        <h1 id="heading">Increase Me..</h1>
-       <div class="btnparent">
-        <button id="btn" onclick="increaseHeadingSize()">Click me +</button>
-        <button id="btn" onclick="decreaseHeadingSize()">Click me -</button>
-       </div>
+        <img id="emoji"
+            src="https://filmfare.wwmindia.com/thumb/content/2016/May/paresh_1464614885.jpg?width=1200&height=900" />
+        <h1 id="heading">Hahahaha..</h1>
+        <div class="btnparent">
+            <button id="btn" onclick="increaseHeadingSize()">Click me +</button>
+            <button id="btn" onclick="decreaseHeadingSize()">Click me -</button>
+        </div>
     </div>
     <script>
         function increaseHeadingSize() {
@@ -66,7 +76,7 @@
                 emoji.style.transform = 'scale(1)';
             }, 500);
         }
-        
+
         function decreaseHeadingSize() {
             var heading = document.getElementById("heading");
             var emoji = document.getElementById("emoji");
