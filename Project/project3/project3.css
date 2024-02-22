@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#heading {
+    text-align: center;
+    color: #0056b3;
+    font-weight: 800;
+}
+
+.todo-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#task-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    box-sizing: border-box; /* Fixes the overflow issue */
+    white-space: normal; /* Allows text to wrap to the next line */
+}
+
+#add-task-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add-task-btn:hover {
+    background-color: #0056b3;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap; /* Allows content to wrap to the next line */
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+li.task-done {
+    text-decoration: line-through;
+}
+
+button.edit-btn, button.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.edit-btn {
+    background-color: #f3c12b;
+    color: #000;
+}
+button.edit-btn:hover {
+    background-color: #f1b500;
+    color: #000;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+button.delete-btn:hover {
+    background-color: #ec0c22;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .todo-container {
+        width: 95%;
+    }
+
+    button.edit-btn, button.delete-btn {
+        width: 48%; /* Adjusts button width for small screens */
+    }
+
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
