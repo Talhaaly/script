@@ -287,7 +287,14 @@
 //   console.log(sum(1, 2, 3, 4)); // Output: 10
 
 
+// ========================================================================================
 
+
+// let fname = ['banana','apple','orange']
+
+// let allFname = fname[fname.length-1]
+
+// console.log(allFname); 
 
 
 
