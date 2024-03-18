@@ -313,8 +313,23 @@
 
 
 
+// const person = {
+//     name: 'Alice',
+//     age: 30,
+//     city: 'New York'
+// };
+
+// const { name: personName, age: personAge, city: personCity } = person;
+
+// console.log(personName, personAge, personCity); // Output: Alice 30 New York
 
 
+
+// const colors = ['red', 'green', 'blue'];
+
+// const [color1, color2, color3] = colors;
+
+// console.log(color1, color2, color3); // Output: red green blue
 
 
 
