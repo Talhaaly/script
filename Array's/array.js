@@ -373,3 +373,27 @@
 // const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 
 // console.log(sum); // Output: 15
+
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const squaredNumbers = numbers.map(num => num * num);
+
+// console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+
+
+
+
+// const person = {
+//     name: 'Alice',
+//     age: 30,
+//     city: 'New York'
+// };
+
+// function printPersonInfo({ name, age, city }) {
+//     console.log(`Name: ${name}, Age: ${age}, City: ${city}`);
+// }
+
+// printPersonInfo(person);
+
+
