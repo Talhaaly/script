@@ -397,3 +397,25 @@
 // printPersonInfo(person);
 
 
+// function add(a, b) {
+//     return a + b;
+// }
+
+
+// const number = 10;
+
+// if (number > 5) {
+//     console.log('Number is greater than 5');
+// } else {
+//     console.log('Number is less than or equal to 5');
+// }
+
+
+// const x = 5;
+// const y = 10;
+
+// if (x > 5 || y < 15) {
+//     console.log('x is greater than 5 or y is less than 15');
+// } else {
+//     console.log('Neither x is greater than 5 nor y is less than 15');
+// }
