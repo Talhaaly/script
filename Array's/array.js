@@ -419,3 +419,22 @@
 // } else {
 //     console.log('Neither x is greater than 5 nor y is less than 15');
 // }
+
+
+// const fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+
+// const upperCaseFruits = fruits.map(fruit => fruit.toUpperCase());
+
+// console.log(upperCaseFruits); // Output: ['APPLE', 'BANANA', 'ORANGE', 'GRAPE', 'KIWI']
+
+// const person = {
+//     name: 'Bob',
+//     age: 25,
+//     city: 'Los Angeles'
+// };
+
+// function printPersonInfo({ name, age, city }) {
+//     console.log(`Name: ${name}, Age: ${age}, City: ${city}`);
+// }
+
+// printPersonInfo(person);
