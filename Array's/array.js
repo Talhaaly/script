@@ -438,3 +438,20 @@
 // }
 
 // printPersonInfo(person);
+
+
+
+
+
+
+
+// const a = 5;
+// const b = 10;
+
+// if (a > 3 && b < 15) {
+//     console.log('a is greater than 3 and b is less than 15');
+// } else {
+//     console.log('Either a is not greater than 3 or b is not less than 15');
+// }
+
+
