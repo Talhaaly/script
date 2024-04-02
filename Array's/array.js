@@ -455,3 +455,17 @@
 // }
 
 
+// const object = {
+//     key1: 'value1',
+//     key2: 'value2',
+//     key3: 'value3'
+// };
+
+// function forEachArray(arr) {
+//     arr.forEach(item => {
+//         console.log(item);
+//     });
+// }
+
+// const numbers = [1, 2, 3, 4, 5];
+// forEachArray(numbers);
