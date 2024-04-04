@@ -472,4 +472,57 @@
 
 
 
+// const colors = ['red', 'blue', 'green', 'yellow'];
+
+// const [firstColor, secondColor, ...remainingColors] = colors;
+// console.log(firstColor); // Output: 'red'
+// console.log(secondColor); // Output: 'blue'
+// console.log(remainingColors); // Output: ['green', 'yellow']
+
+// const user = {
+//     username: 'john_doe',
+//     email: 'john.doe@example.com',
+//     age: 30
+// };
+
+// const { username, email, age } = user;
+// console.log(`Username: ${username}, Email: ${email}, Age: ${age}`);
+
+
+
+
+
+// function getDate() {
+//     return new Date();
+// }
+
+
+// setInterval(() => {
+//     console.log('Code generation is in progress...');
+// }, 1000);
+
+
+// setTimeout(() => {
+//     console.log('Code generation is in progress...');
+// }, 2000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
