@@ -508,8 +508,19 @@
 
 
 
+// function generateCode() {
+//     console.log('Generating code...');
+// }
 
 
+
+// Function to be executed
+// function myFunction() {
+//     console.log('Code generation is in progress...');
+// }
+
+// // Set interval to run myFunction every 1000 milliseconds (1 second)
+// setInterval(myFunction, 1000);
 
 
 
