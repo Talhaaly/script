@@ -532,11 +532,34 @@
 
 
 
+// Define a function
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// // Create an array and push function results into it
+// let resultArray = [];
+// resultArray.push(multiply(2, 3));
+// resultArray.push(multiply(4, 5));
+
+// console.log(resultArray); // Output: [6, 20]
 
 
 
 
+// Define a function
+// function multiply(a, b) {
+//     return a * b;
+// }
 
+// // Create an object with a function property
+// const myObject = {
+//     myFunction: function(a, b) {
+//         return multiply(a, b);
+//     }
+// };
 
+// // Call the function within the object
+// console.log(myObject.myFunction(2, 3)); // Output: 6
 
 
