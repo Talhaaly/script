@@ -563,3 +563,80 @@
 // console.log(myObject.myFunction(2, 3)); // Output: 6
 
 
+
+
+
+
+// Array Basics
+
+// const myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(myArr[2]);
+
+// const myHeros = ["Shahrukh", "Salman", "Amir"];
+// console.log(myHeros[1]);
+
+// // Array Methods
+
+// myArr.push(16);
+// myArr.push(13);
+// myArr.pop();
+// console.log(myArr);
+
+// myArr.unshift(10);
+// myArr.shift();
+// console.log(myArr);
+
+// console.log(myArr.includes(8));
+// console.log(myArr.includes(11));
+
+// console.log(myArr.indexOf(8));
+// console.log(myArr.indexOf(11));
+
+// const newArr = myArr.join();
+// console.log(newArr);
+
+// const myn1 = myArr.slice(1, 3);
+// console.log(myn1);
+// console.log(myArr);
+
+// const myn2 = myArr.splice(1, 3);
+// console.log(myArr);
+// console.log(myn2);
+
+// // Array Advanced
+
+// const indian_heores = ["Ajay", "Akshay", "sunil"];
+// const pak_heores = ["Amir", "Salman", "Shahrukh"];
+
+// const all_heroes = indian_heores.concat(pak_heores);
+// console.log(all_heroes);
+
+// const all_heroes2 = [...pak_heores, ...indian_heores];
+// console.log(all_heroes2);
+
+// const nmArr = [1, 2,]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
